@@ -6,8 +6,8 @@ jobs:
     steps:
       - name: Checkout the code
         uses: actions/checkout@v4
-      - name: Print index1.html file
-        run: cat index1.html
+      - name: Print index.html file
+        run: cat index.html
 
         
   
